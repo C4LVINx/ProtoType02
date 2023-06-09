@@ -8,8 +8,9 @@ public class UserInput : MonoBehaviour
 
     [HideInInspector] public Controls controls;
     
-    // Start is called before the first frame update
-  private void Awake()
+   
+  
+    private void Awake()
     {
         if (instance == null)
         {
